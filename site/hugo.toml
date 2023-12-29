@@ -1,0 +1,44 @@
+baseURL = 'https://levent-lee.github.io'
+languageCode = 'en-us'
+title = 'Garden'
+theme = "hermit-v2"
+
+[Params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+[Params.author]
+  name = "Levent Lee"
+  about = "about"
+
+[[Params.socialLinks]]
+    name = "github"
+    url = "https://github.com/Levent-Lee"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "All Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "分类"
+    url = "categories/"
+    weight = 15
+
+  [[menu.main]]
+    name = "标签"
+    url = "tags/"
+    weight = 20
+
+  [[menu.main]]
+    name = "关于"
+    url = "about/"
+    weight = 90
+
